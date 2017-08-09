@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 
 var articles= {
-'article-One' : {
+'articleOne' : {
 title: 'Article One-Anisha',
 heading:'First Article',
 content: `<p>
@@ -18,7 +18,7 @@ content: `<p>
       Stories help with that. An engaging story sticks with you in a way that a research finding often can't. While JamesClear.com promotes science-backed ideas, we don't shun stories and lessons based on real life.
 </p>`
 },
-'article-Two' : {
+'articleTwo' : {
     title: 'Article Two-Anisha',
     heading:'Second Article',
     content: `<p>
@@ -143,7 +143,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/:article-Name', function (req,res) {
+app.get('/:articleName', function (req,res) {
 var articleName = req.params.articleName;
  res.send(createTemplate(articles[articleName]));
 });

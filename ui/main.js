@@ -7,12 +7,12 @@ var img = document.getElementById('girl');
 
 var marginRight = 0 ; 
 function moveLeft() {
-marginRight = marginRight + 10;
+marginRight = marginRight + 2;
 img.style.marginRight = marginRight + 'px';
     
 }
 
 img.onclick = function() {
-    var interval = setInterval(moveLeft, 10);
+    var interval = setInterval(moveLeft, 15);
     
 };

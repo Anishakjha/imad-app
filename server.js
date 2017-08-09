@@ -144,11 +144,11 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req,res) {
-res.send(createTemplate(articles));
+res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two', function (req,res) {
-res.send(createTemplate(articles));
+res.send(createTemplate(articleTwo));
 });
 
 app.get('/ui/style.css', function (req, res) {

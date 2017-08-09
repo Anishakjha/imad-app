@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 
 var articles= {
-'articleOne' : {
+'article-One' : {
 title: 'Article One-Anisha',
 heading:'First Article',
 content: `<p>
@@ -18,7 +18,7 @@ content: `<p>
       Stories help with that. An engaging story sticks with you in a way that a research finding often can't. While JamesClear.com promotes science-backed ideas, we don't shun stories and lessons based on real life.
 </p>`
 },
-'articleTwo' : {
+'article-Two' : {
     title: 'Article Two-Anisha',
     heading:'Second Article',
     content: `<p>

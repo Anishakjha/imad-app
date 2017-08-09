@@ -10,7 +10,7 @@ app.use(morgan('combined'));
 var articles= {
 'article-one' : {
 title: 'Article One-Anisha',
-heading:'First Article',
+heading:'First Poem|Ruyard Kipling',
 content: `<p>
 If you can keep your head when all about you
 Are losing theirs and blaming it on you;
@@ -45,8 +45,8 @@ Except the Will which says to them: "Hold on!"
 </p>`
 },
 'article-two' : {
-    title: 'Article Two-Anisha',
-    heading:'Second Article',
+    title: 'Poem-2',
+    heading:'Second Poem|Sarah',
     content: `<p>
 Imagine if I was given one moment,
 just a single slice of my past.

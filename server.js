@@ -117,7 +117,7 @@ var htmlTemplate = `
      <body>
     <div class = "Style">
     <div>
-       <a href = "/">Home Page</a>
+       <a href = "/"> Home Page </a>
     </div>
     <hr/>
     
